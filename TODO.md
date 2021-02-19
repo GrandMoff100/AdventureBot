@@ -1,0 +1,70 @@
+# In Order of Priority
+
+- [x] Help Command
+    - Gets commands and formats them in a helpful embed
+    - Comes with parameters
+- [X] Error System
+    - Catch errors and send them to discord in a user-friendly embed
+- [x] Inventory
+    - Contain items
+- [X] Generate/create items
+- [x] Auctions
+    - [x] Sell items
+    - [x] Collect items/coins
+    - [x] Search/find auctions
+- [x] Stores
+    - [x] Display Items and Prices
+    - [x] Buy/sell items/perks (perks are postponed)
+- [ ] Trading items
+    - Trade items for items with other players
+- [X] Types of XP
+    - Adding and getting xp levels
+- [ ] Farming crops and magical plants.
+    - Using magical seeds to grow magical plants
+    - Buying wheat or carrots to grow them
+    - Paying for land to grow crops on
+    - Watering command
+- [ ] Quests
+    - Activities to gain xp/money
+    - Some may require items in order to complete
+    - Some may have stages
+    - Some may need to detect events
+- [ ] Perks, Effects, and Abilities
+    - Faster growing crops, extra xp bonuses, stuff like that.
+    - Being able to trigger these with Class methods
+- [ ] Brewing potions
+    - Spending items to get magical potions that give you special abilities.
+- [ ] Crafting
+    - [ ] Unlocking Crafting Recipes
+    - [ ] Modular ways to make items
+- [ ] Achievements
+    - For foing different things in game
+    - Getting a certain amount of money
+    - Killing a certain boss
+    - Auctioning a certain amount of items
+    - Getting to a certain xp level etc
+    - Claiming a certain item.
+- [ ] Earning XP
+    - Claiming items = Finding xp
+    - Doing quests and magic spells = Magical xp
+    - Playing chess and other games = Intelligence xp
+    - Doing quests = Journeying xp
+    - Killing creatures and bosses = Combat xp
+    - Crafting Items = Crafting xp
+    - Auctions that sell = Auctioning xp
+    - Harvesting grown crops = Farming xp
+    - Brewing Potions = Alchemy xp
+- [ ] Leaderboard
+    - Show who has the most in what. (net worth, xp, etc.)
+- [ ] Deploy bot
+
+# Future Updates
+- [ ] Stocks
+- [ ] Betting
+- [ ] Gambling
+- [ ] Admin webui
+    - Useful when deployed to heroku
+    - View stats
+    - Configure/control bot
+    - Manage db
+

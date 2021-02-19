@@ -1,0 +1,3 @@
+run = "python -B main.py"
+language = "python"
+onBoot = "poetry install"
