@@ -11,7 +11,7 @@ from cryptography.fernet import Fernet
 class Json(dict):
     def __init__(self, path):
         self._path = path
-        with open(path, 'r') as f:
+        with open(os.path.join('data', path), 'r') as f:
             file = json.load(f)
         for key in file:
             self[key] = file[key]
