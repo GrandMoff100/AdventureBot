@@ -97,15 +97,3 @@ class Helper(Cog):
                 await ctx.send(embed=embed)
                 return
         await ctx.send("Sorry, but I couldn't find that command. Try again?")
-
-
-    @Cog.listener('on_ready')
-    async def dm_admin(self):
-        ids = self.bot.owner_ids
-        admins = []
-        for id in ids:
-            await asyncio.sleep(0.2)
-            admin = await self.bot.fetch_user(id)
-            admins.append(admin)
-        for admin in admins:
-            await admin.send(f'```\n\nBot started at {time.time()}s\n\n```')

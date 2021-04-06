@@ -1,0 +1,201 @@
+{
+    "items": {
+        "Pirate Sword": {
+            "rarity": 100,
+            "cost": 50,
+            "recipe": {
+                "Scrap Metal": 8,
+                "Stick": 4
+            },
+            "attrs": {
+                "weapon": true,
+                "damage": 10
+            }
+        },
+        "Laser Cannon": {
+            "rarity": 89,
+            "cost": 100,
+            "recipe": {
+                "Scrap Metal": 18,
+                "Solar Crystal": 2
+            },
+            "attrs": {
+                "weapon": true,
+                "damage": 50
+            }
+        },
+        "Mumbo Jumbo's Mustache": {
+            "rarity": 10,
+            "cost": null,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Essence of Human Screams": {
+            "rarity": 30,
+            "cost": 190,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Demon Blood Canister": {
+            "rarity": 65,
+            "cost": 160,
+            "recipe": {
+                "Essence of Human Screams": 2,
+                "Scrap Metal": 6
+            },
+            "attrs": {}
+        },
+        "Systemctl Daemon": {
+            "rarity": 10,
+            "cost": null,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Marauder's Map": {
+            "rarity": 70,
+            "cost": 200,
+            "recipe": {
+                "Liquid Courage": 3,
+                "Lonely road": 4
+            },
+            "attrs": {
+                "unlock-area": "Dunes of Death"
+            }
+        },
+        "Liquid Courage": {
+            "rarity": 40,
+            "cost": 130,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Lonely road": {
+            "rarity": 50,
+            "cost": 30,
+            "recipe": {
+                "Paving Stone": 10,
+                "Loneliness": 1
+            },
+            "attrs": {}
+        },
+        "Shooting Star": {
+            "rarity": 30,
+            "cost": 100,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Photon Cannon": {
+            "rarity": 23,
+            "cost": 300,
+            "recipe": {
+                "Laser Cannon": 1,
+                "Shooting Star": 4
+            },
+            "attrs": {
+                "weapon": true,
+                "damage": 100
+            }
+        },
+        "Ancient Golden Zombie Skull Remnant": {
+            "rarity": 1,
+            "cost": 6000,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Dumbo": {
+            "rarity": 3,
+            "cost": null,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Scrap Metal": {
+            "rarity": 180,
+            "cost": 2,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Fishing Lure": {
+            "rarity": 80,
+            "cost": 2,
+            "recipe": {
+                "Scrap Metal": 2
+            },
+            "attrs": {}
+        },
+        "Frisbee": {
+            "rarity": 60,
+            "cost": 4,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Rope": {
+            "rarity": 120,
+            "cost": 10,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Stick": {
+            "rarity": 130,
+            "cost": 3,
+            "recipe": null,
+            "attrs": {
+                "weapon": true,
+                "damage": 1
+            }
+        },
+        "Solar Crystal": {
+            "rarity": 20,
+            "cost": 160,
+            "recipe": {
+                "Solar Crystal Fragment": 8
+            },
+            "attrs": {}
+        },
+        "Paving Stone": {
+            "rarity": 160,
+            "cost": 5,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Loneliness": {
+            "rarity": 50,
+            "cost": 20,
+            "recipe": null,
+            "attrs": {}
+        },
+        "Xargon Bean": {
+            "rarity": 80,
+            "cost": null,
+            "recipe": null,
+            "attrs": {
+                "plantable": true,
+                "grow-time": 1200,
+                "grow-drops": {
+                    "guaranteed": [
+                        "Xargon Wheat",
+                        "Xargon Bean"
+                    ],
+                    "rand": [
+                        [
+                            50,
+                            [
+                                "Xargon Bean"
+                            ]
+                        ],
+                        [
+                            20,
+                            [
+                                "Xargon Wheat"
+                            ]
+                        ]
+                    ]
+                }
+            }
+        },
+        "Xargon Wheat": {
+            "rarity": 60,
+            "cost": 30,
+            "recipe": null,
+            "attrs": {}
+        }
+    }
+}

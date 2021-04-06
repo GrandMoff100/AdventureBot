@@ -66,4 +66,4 @@ class AdventureBot(Bot):
 
 
 bot = AdventureBot()
-bot.run(os.getenv('ECONBOTTOKEN'))
+bot.run(os.getenv('ADVENTUREBOTTOKEN'))
