@@ -1,5 +1,4 @@
 import copy
-import asyncio
 from utils.errors import AmountError, BalanceError
 
 
@@ -53,10 +52,10 @@ class Account:
         return (await self.bankcoins) >= amount and amount >= 0
 
     async def _add_bank(self, amount):
-        await bank.update({"bank": {"coins": self.bankcoins+amount}}, id=self.id, type="monetary")
+        await bank.update({"bank": {"coins": (await self.bankcoins)+amount}}, id=self.id, type="monetary")
 
     async def _add_purse(self, amount):
-        await bank.update({"purse": {"coins": self.pursecoins+amount}}, id=self.id, type="monetary")
+        await bank.update({"purse": {"coins": (await self.pursecoins)+amount}}, id=self.id, type="monetary")
 
     async def _set_bank(self, amount):
         await bank.update({"bank": {"coins": amount}}, id=self.id, type="monetary")
